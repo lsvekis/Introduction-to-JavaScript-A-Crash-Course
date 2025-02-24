@@ -1,0 +1,22 @@
+const path = require('path');
+module.exports = {
+entry: './src/main.js', // your main file
+output: {
+filename: 'bundle.js',
+path: path.resolve(__dirname, 'dist')
+},
+module: {
+rules: [
+{
+test: /\.js$/,
+exclude: /node_modules/,
+use: {
+loader: 'babel-loader' // Transpile ES6+ to ES5
+}
+}
+]
+},
+mode: 'development'
+};
+Babel for Transpiling
+Babel converts modern JavaScript into backward‑compatible versions.

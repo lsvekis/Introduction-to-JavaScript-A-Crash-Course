@@ -1,0 +1,7 @@
+setTimeout(() => {
+callback(a * b);
+}, 300);
+}
+asyncMultiply(3, 4, (result) => {
+assertEqual(result, 12, "asyncMultiply() should return the product of two numbers");
+});
