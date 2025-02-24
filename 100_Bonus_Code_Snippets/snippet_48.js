@@ -1,0 +1,1 @@
+console.log("Values:", Object.values(person));

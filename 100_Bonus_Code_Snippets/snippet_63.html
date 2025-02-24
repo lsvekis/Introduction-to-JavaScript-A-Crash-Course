@@ -1,0 +1,11 @@
+<div id="toggleDiv">Toggle my class</div>
+<button id="toggleButton">Toggle Class</button>
+<script>
+const toggleDiv = document.getElementById("toggleDiv");
+document.getElementById("toggleButton").addEventListener("click", () => {
+toggleDiv.classList.toggle("active");
+});
+</script>
+<style>
+.active { color: red; }
+</style>

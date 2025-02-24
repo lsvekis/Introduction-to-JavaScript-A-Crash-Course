@@ -1,0 +1,9 @@
+<script>
+const ul = document.createElement("ul");
+["Item 1", "Item 2", "Item 3"].forEach(itemText => {
+const li = document.createElement("li");
+li.textContent = itemText;
+ul.appendChild(li);
+});
+document.body.appendChild(ul);
+</script>

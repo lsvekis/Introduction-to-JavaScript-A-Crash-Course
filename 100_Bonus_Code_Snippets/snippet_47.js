@@ -1,0 +1,1 @@
+console.log("Keys:", Object.keys(person));
