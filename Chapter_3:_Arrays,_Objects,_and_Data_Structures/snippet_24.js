@@ -1,0 +1,1 @@
+console.log("Available Products:", availableProducts);
